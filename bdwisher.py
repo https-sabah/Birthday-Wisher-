@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime
 import pyttsx3
-from plyer import notification, vibrator
+from plyer import notification
 
 # Initialize the text-to-speech engine
 engine = pyttsx3.init("sapi5")
