@@ -36,4 +36,4 @@ for i, item in dates.iterrows():
         name = item["NAME"]  # column is NAME in Excel
         message = f"Today is {name}'s birthday!"
         notify("Birthday Reminder", message)
-        speak(f"Sabah, today is {name}'s birthday.")
+        speak(f"Sabah,Today is {name}'s birthday.")
